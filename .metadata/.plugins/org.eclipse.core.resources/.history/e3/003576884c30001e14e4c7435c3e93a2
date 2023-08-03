@@ -1,0 +1,11 @@
+package Variables;
+
+public class variables_1 {
+	public static void main(String args[]) {
+		float __a_bc = 5;
+		
+		__a_bc = 8;
+		
+		System.out.println(__a_bc);
+	}
+}

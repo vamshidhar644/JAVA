@@ -1,0 +1,9 @@
+package Variables;
+
+public class variables_1 {
+	public static void main(String args[]) {
+		int __abc = 5;
+		
+		System.out.println(__abc);
+	}
+}

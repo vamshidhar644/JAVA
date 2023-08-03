@@ -1,0 +1,10 @@
+package operators;
+
+public class ArithmeticOperators2 {
+	public static void main(String[] args) {
+		int m=4, n=5;
+		
+		n = n + m;
+		System.out.println(n);
+	}
+}
