@@ -1,0 +1,20 @@
+package classes_and_objects;
+
+class Calccc{
+	int __num1;
+	int __num2;
+	int __result;
+	
+	public Calccc(int num1, int num2) {
+		__num1 = num1;
+		__num2 = num2;
+		System.out.println("In Constructor");
+	}
+	
+}
+
+public class ThisKeyword {
+	public static void main(String[] args) {
+		
+	}
+}
