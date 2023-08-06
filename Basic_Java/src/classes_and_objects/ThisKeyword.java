@@ -6,7 +6,7 @@ class Calccc{
 	int __result;
 	
 	public Calccc(int __num1, int __num2) {
-		this.__num1 = __num1;
+		this.__num1 = __num1; // 'this' represents current instance
 		this.__num2 = __num2;
 	}
 	

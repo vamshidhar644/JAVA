@@ -1,0 +1,37 @@
+package overloading;
+
+
+class Casioo{
+	int __m;
+	int __n;
+	String __operation;
+	public Casioo() {
+		__m = 0;
+		__n = 0;
+		__operation = "Nothing";
+	}
+	public Casioo(int i) {
+		__m = i;
+		__n = 0;
+		__operation = "Nothing";
+	}
+	public Casioo(int i, int j) {
+		__m = i;
+		__n = j;
+		__operation = "Nothing";
+	}
+	public Casioo(int i, int j, String op) {
+		__m = i;
+		__n = j;
+		__operation = op;
+	}
+}
+
+public class ConstructorOverloading {
+	public static void main(String[] args) {
+		Casioo obj = new Casioo();
+		
+		
+		
+	}
+}

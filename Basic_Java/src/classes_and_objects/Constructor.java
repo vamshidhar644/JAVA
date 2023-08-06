@@ -22,7 +22,7 @@ class Calcc{
 
 public class Constructor {
 	public static void main(String[] args) {
-		Calcc obj = new Calcc(7.4); // constructor is also called
+		Calcc obj = new Calcc(6.5); // constructor is also called
 		
 //		System.out.println(obj.__num1);
 	}
