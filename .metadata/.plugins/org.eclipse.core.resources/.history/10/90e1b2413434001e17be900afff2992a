@@ -1,0 +1,16 @@
+package Inheritance;
+
+class A{
+	public A() {
+		System.out.println("In A");
+	}
+}
+
+class B{
+	public B() {
+		System.out.println("In B");
+	}
+}
+public class Super {
+
+}

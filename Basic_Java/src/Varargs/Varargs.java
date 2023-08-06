@@ -1,4 +1,4 @@
-package Varargs;
+package varargs;
 
 class Calc{
 	public int add(int ... n) {

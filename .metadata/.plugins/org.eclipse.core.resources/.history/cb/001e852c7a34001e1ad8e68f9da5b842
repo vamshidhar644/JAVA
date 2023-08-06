@@ -1,0 +1,24 @@
+package interface_keyword;
+
+
+class Pen{
+	public void write() {
+		System.out.println("I am a Pen");
+	}
+}
+class Pencil{
+	public void write() {
+		System.out.println("I am a Pencil");
+	}
+}
+
+class Kit{
+	public void doSomething(Pen p) {
+		p.write();
+	}
+}
+public class Interface {
+	public static void main(String[] args) {
+		
+	}
+}

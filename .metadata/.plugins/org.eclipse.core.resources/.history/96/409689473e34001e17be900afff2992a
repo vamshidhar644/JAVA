@@ -1,0 +1,21 @@
+package overriding;
+
+class Aa{
+	public void show() {
+		System.out.println("In A "+ i);
+	}
+}
+class Bb extends Aa{
+
+	public void show() {
+		
+		System.out.println("In B "+ i);
+	}
+}
+public class MethodDispatch {
+	public static void main(String[] args) {
+		Bb obj = new Bb();
+		
+		obj.show();
+	}
+}

@@ -1,0 +1,19 @@
+package final_keyword;
+
+
+class Aa{
+
+	public Aa() {
+		
+	}
+}
+public class FinalClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		A obj = new A();
+		
+		System.out.println(obj.DAY);
+	}
+
+}

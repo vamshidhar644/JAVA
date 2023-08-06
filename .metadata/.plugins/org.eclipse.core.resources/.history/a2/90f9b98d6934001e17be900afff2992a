@@ -1,0 +1,39 @@
+package Encapsulation;
+
+class Student{
+	private int __rollno;
+	private String __name;
+	
+	public int get__rollno() {
+		return __rollno;
+	}
+	public void set__rollno(int __rollno) {
+		this.__rollno = __rollno;
+		System.out.println("Roll no change");
+	}
+	public String get__name() {
+		return __name;
+	}
+	public void set__name(String __name) {
+		this.__name = __name;
+	}
+	
+	
+}
+public class Encapsulation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student st = new Student();
+
+		st.set__rollno(2); // assigning value through method		
+		st.set__name("Vamshi");
+		
+		int rollno = st.get__rollno();
+		String name = st.get__name();
+		
+		System.out.println(rollno);
+		System.out.println(name);
+	}
+
+}

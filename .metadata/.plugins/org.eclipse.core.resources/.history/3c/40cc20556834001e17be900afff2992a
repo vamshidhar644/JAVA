@@ -1,0 +1,27 @@
+package Encapsulation;
+
+class Student{
+	int __rollno;
+	String __name;
+	
+	public void setRoll(int r) {
+		__rollno = r;
+	}
+	public int getRoll() {
+		return __rollno;
+	}
+}
+public class Encapsulation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student st = new Student();
+
+		st.setRoll(2); // assigning value through method
+		
+		int rollno = st.getRoll();
+		
+		System.out.println(rollno);
+	}
+
+}

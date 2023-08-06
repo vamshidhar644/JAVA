@@ -1,0 +1,19 @@
+package WrapperClass;
+
+
+public class WrapperClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int i = 6; // primitive variable
+		Integer ii = new Integer(6); // Reference variable
+		
+		int j = ii.intValue(); // fetch value of integer
+		System.out.println(j);
+		
+		Float ff = new Float(4f);
+		
+	}
+
+}
