@@ -1,0 +1,21 @@
+package interface_keyword;
+
+@FunctionalInterface
+interface Demo{
+	void abc();
+	
+}
+
+class DemoImp implements Demo{
+	public void abc() {
+		System.out.println("In abc()");
+	}
+}
+public class DefaultMethod {
+	public static void main(String[] args) {
+		Demo obj = new DemoImp();
+		
+		obj.show();
+		obj.abc();
+	}
+}

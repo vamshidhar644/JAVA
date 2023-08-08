@@ -1,0 +1,12 @@
+package interface_keyword;
+
+interface Demo{
+	default void show() {
+		System.out.println("In Demo show()");
+	}
+}
+public class StaticInterface {
+	public static void main(String[] args) {
+		Demo.show()
+	}
+}

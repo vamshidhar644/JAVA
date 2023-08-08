@@ -1,0 +1,16 @@
+package interface_keyword;
+
+interface Abc{
+	void show();
+}
+public class FunctionalInterface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Abc obj = ()->{
+				System.out.println("In Show()");
+			};
+		
+	}
+
+}
