@@ -14,7 +14,7 @@ interface MyDemo{
 }
 
 class DemoImp implements Demo, MyDemo{
-	public void abc() {
+ 	public void abc() {
 		System.out.println("In abc()");
 	}
 	public void show() {
