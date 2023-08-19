@@ -1,4 +1,4 @@
-package abstract_class;
+
 
 class Printer{
 	public void show(Number i) {

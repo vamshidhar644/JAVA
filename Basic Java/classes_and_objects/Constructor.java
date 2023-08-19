@@ -24,6 +24,6 @@ public class Constructor {
 	public static void main(String[] args) {
 		Calcc obj = new Calcc(6.5); // constructor is also called
 		
-//		System.out.println(obj.__num1);
+		System.out.println(obj.__num1);
 	}
 }

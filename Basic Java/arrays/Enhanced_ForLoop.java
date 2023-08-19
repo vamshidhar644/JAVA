@@ -5,7 +5,7 @@ public class Enhanced_ForLoop {
 		int ar[] = {1, 3, 5, 6};
 		
 		for(int k : ar) {
-//			System.out.println(k);
+			System.out.println(k);
 		}
 		
 		int arr[][] = {

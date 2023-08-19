@@ -23,6 +23,6 @@ public class Super {
 	public static void main(String[] args) {
 //		A obj1 = new A();
 		
-		B obj2 = new B();
+		// B obj2 = new B();
 	}
 }
