@@ -1,7 +1,4 @@
 package linkedlist;
-import java.util.*;
-
-import linkedlist.SingleLinkedList.Node;
 
 public class DoublyLinkedList {
 	Node head = null;

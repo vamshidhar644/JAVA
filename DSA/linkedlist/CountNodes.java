@@ -1,7 +1,5 @@
 package linkedlist;
 
-import linkedlist.SingleLinkedList.Node;
-
 public class CountNodes {
 	Node head;
 	
