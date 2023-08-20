@@ -18,7 +18,7 @@ public class PalindromeOrNot {
 			rev = rev * 10 + rem;
 			temp /= 10;
 		}
-		
+		sc.close();
 		System.out.println(num + (num==rev ? " is Palindrome" : " is not palindrome"));
 	}
 

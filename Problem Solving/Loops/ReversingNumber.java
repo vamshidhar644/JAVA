@@ -15,7 +15,7 @@ public class ReversingNumber {
 			result = result*10 + n%10;
 			n /= 10;
 		}
-		
+		sc.close();
 		System.out.println(result);
 	}
 

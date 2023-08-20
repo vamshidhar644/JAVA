@@ -18,8 +18,8 @@ public class A_raised_to_power_B {
 		for(int i=1; i<=b; i++) {
 			ans *= a;
 		}
-		
-		System.out.println("A raised to power B: "+ans);
+		sc.close();
+		System.out.println(a+" raised to power "+b+": "+ans);
 	}
 
 }

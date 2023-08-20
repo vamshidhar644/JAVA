@@ -14,7 +14,7 @@ public class CountDigits {
 			n = n/10;
 			count++;
 		}
-		
+		sc.close();
 		System.out.println("Number of digits: "+count);
 	}
 
