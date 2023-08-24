@@ -1,8 +1,6 @@
 package ll_problems;
 
 public class RotateLL {
-
-    private int size;
     Node head;
 
     class Node {
@@ -12,12 +10,7 @@ public class RotateLL {
         Node(String data) {
             this.data = data;
             this.next = null;
-            size++;
         }
-    }
-
-    RotateLL() {
-        this.size = 0;
     }
 
     public void create(String data) {
@@ -49,10 +42,6 @@ public class RotateLL {
         }
 
         System.out.println("NULL");
-    }
-
-    public int getSize() {
-        return size;
     }
 
     public Node rotateClockwise(int k) {
