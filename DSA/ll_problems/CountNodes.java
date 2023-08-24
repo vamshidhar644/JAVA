@@ -1,4 +1,4 @@
-package linkedlist;
+package ll_problems;
 
 public class CountNodes {
 	Node head;

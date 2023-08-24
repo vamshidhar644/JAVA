@@ -90,8 +90,7 @@ public class DoublyLinkedList {
 		}
 		
 		temp.next = ptr.next;
-		ptr.next.prev = temp;
-		
+		ptr.next.prev = temp;	
 	}
 	
 	//print
