@@ -1,4 +1,4 @@
-package PAT.Day1.Tasks;
+package PAT.Day1;
 
 public class Matrix {
     public static void main(String[] args) {
