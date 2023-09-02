@@ -1,7 +1,5 @@
 package PAT.Day2;
 
-import PAT.Day2.linkedlist.PairwiseSwap;
-
 public class SwapNodes {
 
     Node head;
