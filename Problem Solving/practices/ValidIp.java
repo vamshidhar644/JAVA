@@ -1,7 +1,5 @@
 package practices;
 
-import java.util.*;
-
 public class ValidIp {
 
     public static boolean checkIP(String str) {
@@ -29,12 +27,9 @@ public class ValidIp {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        // while (sc.hasNext()) {
-            String ip = "249.249.249.256";
+        String ip = "249.249.249.256";
 
-            System.out.println(checkIP(ip) ? "true" : "false");
-        // }
+        System.out.println(checkIP(ip) ? "true" : "false");
     }
 }

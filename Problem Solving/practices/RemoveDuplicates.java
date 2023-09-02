@@ -1,5 +1,5 @@
 package practices;
-import java.io.*;
+
 import java.util.*;
 
 public class RemoveDuplicates {
@@ -20,5 +20,7 @@ public class RemoveDuplicates {
             
             System.out.println(removeDuplicate(str));
         }
+
+        sc.close();
     }
 }

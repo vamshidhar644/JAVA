@@ -12,6 +12,8 @@ public class CountCharacters {
         // Calculate the count and print
         int characterCount = countCharacter(data, coder);
         System.out.println(characterCount);
+
+        scanner.close();
     }
 
     public static int countCharacter(String data, char coder) {

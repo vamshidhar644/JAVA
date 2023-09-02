@@ -12,6 +12,7 @@ public class PrimeNumbers {
         BigInteger n = new BigInteger(num);
         int smallN = Integer.parseInt(num);
 
+        sc.close();
         System.out.println(n.isProbablePrime(smallN) ? "prime" : "not prime");
     }
 }

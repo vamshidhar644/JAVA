@@ -41,6 +41,8 @@ public class StringSorting {
             Student st = new Student(id, name, cgpa);
             stList.add(st);
         }
+
+        sc.close();
         
         Collections.sort(stList, new Comparator<Student>(){
             public int compare(Student s1, Student s2){
