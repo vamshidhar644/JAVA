@@ -1,3 +1,4 @@
+package practices;
 import java.util.Scanner;
 
 public class CountCharacters {

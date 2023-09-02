@@ -1,4 +1,4 @@
-
+package practices;
 class SecondLargest {
     public static int findSecondLarge(int[] arr) {
         int max = arr[0];
