@@ -2,7 +2,7 @@ package ll_problems;
 
 public class MiddleNode {
     Node head;
-    private int size;
+    // private int size;
 
     class Node {
         String data;
@@ -11,7 +11,7 @@ public class MiddleNode {
         Node(String data) {
             this.data = data;
             this.next = null;
-            size++;
+            // size++;
         }
     }
 

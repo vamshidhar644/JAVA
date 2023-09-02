@@ -1,9 +1,9 @@
 package ll_problems;
 
-// Java Program to get intersection point of two linked
-// lists.
-import java.util.*;
-import java.io.*;
+// // Java Program to get intersection point of two linked
+// // lists.
+// import java.util.*;
+// import java.io.*;
 
 class IntersectionOfLL {
 
