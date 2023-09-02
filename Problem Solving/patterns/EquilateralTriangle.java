@@ -11,7 +11,6 @@ public class EquilateralTriangle {
             System.out.println(" ");
           }
 
-          while(k != 2*i)
         }
 
     }
