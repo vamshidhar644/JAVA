@@ -15,7 +15,7 @@ public class SumOfBinaries {
 
             base = base * 10;
             n = n / 10;
-        }
+        } 
 
         return ans;
     }

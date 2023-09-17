@@ -9,17 +9,17 @@ public class FindNthTerm {
 
         int ans = 0, base = 1;
 
-        // while (n > 0) {
-        // if (n % 2 == 0) {
-        // ans = ans + 4 * base;
-        // n = n / 2 - 1;
-        // } else {
-        // ans = ans + 3 * base;
-        // n = n / 2;
-        // }
+        while (n > 0) {
+            if (n % 2 == 0) {
+                ans = ans + 4 * base;
+                n = n / 2 - 1;
+            } else {
+                ans = ans + 3 * base;
+                n = n / 2;
+            }
 
-        // base = base * 10;
-        // }
+            base  = base * 10;
+        }
 
         while (n > 0) {
             if (n % 3 == 0) {
