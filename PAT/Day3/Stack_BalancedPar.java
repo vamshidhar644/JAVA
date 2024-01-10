@@ -2,9 +2,9 @@ package PAT.Day3;
 
 public class Stack_BalancedPar {
 
-    private int maxSize = 7; // number of items in stack
+    private int maxSize = (int) Math.pow(10, 3);
     private char[] stackArray = new char[maxSize];
-    private int top; // top of stack
+    private int top;
 
     public void push(char s) {
         if (top == maxSize - 1) {
@@ -55,9 +55,9 @@ public class Stack_BalancedPar {
         stack.print();
 
         if (stack.top != 0) {
-            System.out.println("\nString is not balanced");
+            System.out.println("No");
         } else {
-            System.out.println("String is balanced");
+            System.out.println("Yes");
         }
 
     }
