@@ -1,3 +1,4 @@
+package abstract_class;
 
 abstract class Human{
 	public abstract void eat();
