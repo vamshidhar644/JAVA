@@ -49,11 +49,13 @@ public class SingleLinkedList {
 		
 		currNode.next = newNode; // added at last
 	}
+	
 	// add - at location
 	public void addLoc(String data) {
 		Node newNode = new Node(data);
 		
 		int position = 2;
+		
 		Node temp = head;
 		for(int i=0; i<(position-1);i++) {
 			temp = temp.next;
